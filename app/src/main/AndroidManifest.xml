@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.simonfong.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".factorypattern.FactoryPatternActivity"/>
+        <activity android:name=".abstractfactorypattern.AbstractFactoryPatternActivity"/>
+        <activity android:name=".simgletonpattern.SingletonPatternActivity"/>
+        <activity android:name=".builderpattern.BuilderPatternActivity"/>
+        <activity android:name=".prototypepattern.PrototypePatternActivity"/>
+        <activity android:name=".adapterpattern.AdapterPatternActivity"/>
+        <activity android:name=".bridge.BridgePatternActivity"/>
+        <activity android:name=".filter.FilterPatternActivity"/>
+        <activity android:name=".composite.CompositePatternActivity"/>
+        <activity android:name=".decorator.DecoratorPatternActivity"/>
+        <activity android:name=".facade.FacadePatternActivity"/>
+        <activity android:name=".flyweight.FlyweightPatternActivity"/>
+        <activity android:name=".proxy.ProxyPatternActivity"/>
+        <activity android:name=".chainofresponsibility.ChainOfResponsibilityPatternActivity"/>
+        <activity android:name=".commandpattern.CommandPatternActivity"/>
+    </application>
+
+</manifest>

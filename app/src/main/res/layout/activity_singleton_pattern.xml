@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="单例模式"/>
+
+    <Button
+        android:id="@+id/single1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="懒汉式，线程不安全"/>
+
+    <Button
+        android:id="@+id/single2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="懒汉式，线程安全"/>
+
+    <Button
+        android:id="@+id/single3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="饿汉式"/>
+
+    <Button
+        android:id="@+id/single4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="双检锁/双重校验锁"/>
+
+    <Button
+        android:id="@+id/single5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登记式/静态内部类"/>
+
+    <Button
+        android:id="@+id/single6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="枚举"/>
+
+
+</LinearLayout>

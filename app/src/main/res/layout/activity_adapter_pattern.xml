@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="适配器模式"/>
+
+    <Button
+        android:id="@+id/btn_mp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mp3"/>
+
+    <Button
+        android:id="@+id/btn_mp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mp4"/>
+
+    <Button
+        android:id="@+id/btn_vlc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vlc"/>
+
+    <Button
+        android:id="@+id/btn_avi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="avi"/>
+
+</LinearLayout>

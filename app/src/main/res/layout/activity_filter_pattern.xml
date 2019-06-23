@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="过滤器模式"/>
+
+    <Button
+        android:id="@+id/btn_male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="male"/>
+
+    <Button
+        android:id="@+id/btn_female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="female"/>
+
+    <Button
+        android:id="@+id/btn_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="single"/>
+
+    <Button
+        android:id="@+id/btn_and"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="and"/>
+
+    <Button
+        android:id="@+id/btn_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"/>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        style="@style/titlebar"
+        app:title="设计模式"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建型模式"
+                android:textColor="#333333"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/factory_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="工厂模式"/>
+
+            <Button
+                android:id="@+id/abstract_factory_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="抽象工厂模式"/>
+
+            <Button
+                android:id="@+id/singleton_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="单例模式"/>
+
+            <Button
+                android:id="@+id/builder_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="建造者模式"/>
+
+            <Button
+                android:id="@+id/prototype_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="原型模式"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="结构型模式"
+                android:textColor="#333333"
+                android:textSize="18sp"/>
+
+            <Button
+                android:id="@+id/adapter_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="适配器模式"/>
+
+            <Button
+                android:id="@+id/bridge_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="桥接模式"/>
+
+            <Button
+                android:id="@+id/filter_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="过滤器模式"/>
+
+            <Button
+                android:id="@+id/composite_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="组合模式"/>
+
+            <Button
+                android:id="@+id/decorator_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="装饰器模式"/>
+
+            <Button
+                android:id="@+id/facade_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="外观模式"/>
+
+            <Button
+                android:id="@+id/flyweight_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="享元模式"/>
+
+            <Button
+                android:id="@+id/proxy_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="代理模式"/>
+
+            <Button
+                android:id="@+id/chain_of_responsibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="责任链模式"/>
+
+            <Button
+                android:id="@+id/command_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="命令模式"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
