@@ -31,6 +31,7 @@
         <activity android:name=".proxy.ProxyPatternActivity"/>
         <activity android:name=".chainofresponsibility.ChainOfResponsibilityPatternActivity"/>
         <activity android:name=".commandpattern.CommandPatternActivity"/>
+        <activity android:name=".interpreterpattern.InterpreterPatternActivity"/>
     </application>
 
 </manifest>

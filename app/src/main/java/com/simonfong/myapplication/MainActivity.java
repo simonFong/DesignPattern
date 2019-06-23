@@ -18,6 +18,7 @@ import com.simonfong.myapplication.facade.FacadePatternActivity;
 import com.simonfong.myapplication.factorypattern.FactoryPatternActivity;
 import com.simonfong.myapplication.filter.FilterPatternActivity;
 import com.simonfong.myapplication.flyweight.FlyweightPatternActivity;
+import com.simonfong.myapplication.interpreterpattern.InterpreterPatternActivity;
 import com.simonfong.myapplication.prototypepattern.PrototypePatternActivity;
 import com.simonfong.myapplication.proxy.ProxyPatternActivity;
 import com.simonfong.myapplication.simgletonpattern.SingletonPatternActivity;
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({R.id.factory_pattern, R.id.abstract_factory_pattern, R.id.singleton_pattern, R.id.builder_pattern,
             R.id.prototype_pattern, R.id.adapter_pattern, R.id.bridge_pattern, R.id.filter_pattern, R.id.composite_pattern,
             R.id.decorator_pattern, R.id.facade_pattern, R.id.flyweight_pattern, R.id.proxy_pattern, R.id.chain_of_responsibility,
-            R.id.command_pattern
+            R.id.command_pattern, R.id.interpreter_pattern
     })
     public void onViewClicked(View view) {
         switch (view.getId()) {
@@ -92,6 +93,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.command_pattern:
                 startActivity(CommandPatternActivity.class);
+                break;
+            case R.id.interpreter_pattern:
+                startActivity(InterpreterPatternActivity.class);
                 break;
             default:
         }
