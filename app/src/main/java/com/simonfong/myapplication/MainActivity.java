@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.simonfong.myapplication.IteratorPattern.IteratorPatternActivity;
 import com.simonfong.myapplication.abstractfactorypattern.AbstractFactoryPatternActivity;
 import com.simonfong.myapplication.adapterpattern.AdapterPatternActivity;
 import com.simonfong.myapplication.bridge.BridgePatternActivity;
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick({R.id.factory_pattern, R.id.abstract_factory_pattern, R.id.singleton_pattern, R.id.builder_pattern,
             R.id.prototype_pattern, R.id.adapter_pattern, R.id.bridge_pattern, R.id.filter_pattern, R.id.composite_pattern,
             R.id.decorator_pattern, R.id.facade_pattern, R.id.flyweight_pattern, R.id.proxy_pattern, R.id.chain_of_responsibility,
-            R.id.command_pattern, R.id.interpreter_pattern
+            R.id.command_pattern, R.id.interpreter_pattern, R.id.iterator_pattern
     })
     public void onViewClicked(View view) {
         switch (view.getId()) {
@@ -96,6 +97,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.interpreter_pattern:
                 startActivity(InterpreterPatternActivity.class);
+                break;
+            case R.id.iterator_pattern:
+                startActivity(IteratorPatternActivity.class);
                 break;
             default:
         }
